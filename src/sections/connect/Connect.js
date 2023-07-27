@@ -28,7 +28,7 @@ function Connect() {
                      <Typography variant='h4' sx={{textAlign: 'center', my: 3, color: 'coral'}} >
                         Contact me
                      </Typography>
-                       <Fade duration={2500}>
+                       <Fade duration={2500} triggerOnce>
                        <Card sx={{padding: 4, backgroundColor: 'inherit', border: '1px solid coral'}}>
                         <TextField 
                         type='text'

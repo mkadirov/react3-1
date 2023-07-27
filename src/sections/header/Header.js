@@ -26,9 +26,15 @@ function Header() {
                 </Typography>
                 </Fade>
 
+                <Fade duration={4000}>
+                <Box sx={{display: {sm: 'flex', md: 'none', lg: 'none'}}}>
+                  <BarMenu/>
+                </Box>
+                </Fade>
+
                 <Box sx={{ display: { xs: 'none', md: 'flex'}}}>
                   <Slide direction='down'>
-                  <StyledBtn href='#homeSection' sx={{marginRight: 2}}>Home</StyledBtn>
+                    <StyledBtn href='#homeSection' sx={{marginRight: 2}}>Home</StyledBtn>
                   </Slide>
 
                   <Slide direction='down' duration={1400}>
@@ -44,11 +50,7 @@ function Header() {
                   </Slide>  
                 </Box>
                 
-                <Fade duration={4000}>
-                <Box sx={{display: {sm: 'flex', md: 'none'}}}>
-                  <BarMenu/>
-                </Box>
-                </Fade>
+                
             </Box>    
           </Container>
         </Toolbar>

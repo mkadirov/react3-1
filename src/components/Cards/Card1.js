@@ -44,7 +44,8 @@ function Card1({item}) {
           Cupiditate modi voluptates autem debitis 
           
         </Typography>
-        <Grid container spacing={2} marginTop={1} >
+        
+        {/* <Grid container spacing={2} marginTop={1} >
             {
                 item.icons.map((num, index) => {
                     return(
@@ -57,7 +58,8 @@ function Card1({item}) {
                 })
             }
            
-        </Grid>
+        </Grid> */}
+
       </CardContent>
       <CardActions>
         <Button size="small">Share</Button>

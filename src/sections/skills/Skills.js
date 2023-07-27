@@ -27,7 +27,7 @@ function Skills() {
                 Skills
             </Typography>
 
-            <Slide direction='right'  duration={2000} triggerOnce>
+            <Slide direction='right'  duration={800} triggerOnce>
             <StyledGrid container spacing={4} align='center' marginTop={2}>
                 <Grid item xs={4} md={4} lg={2}>
                     <Box sx={{padding: {xs: 3, md: 4}}}>
@@ -82,7 +82,7 @@ function Skills() {
             </StyledGrid>
             </Slide>
 
-            <Slide duration={2000} triggerOnce>
+            <Slide duration={800} triggerOnce>
                 <StyledGrid container spacing={4} align='center' marginTop={1}>
                 
 
